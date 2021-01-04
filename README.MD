@@ -28,6 +28,26 @@ npm publish
 npm unpublish npm-test --force #强制清除发布的包
 ```
 
+- 安装mysql
+
+```bash
+brew install mysql 
+```
+
+- 启动mysql
+
+```bash
+sudo mysql.server start
+```
+
+- 登陆mysql
+
+```bash
+sudo mysql -u root
+```
+
+
+
 
 
 发布npm包：
